@@ -299,8 +299,12 @@
 	/* HERO
 	================================================== */
 	.hero .col-md-6:first-child {
-		top: 32%;
+		top: 35%;
 	}
+	.hero .col-md-6:last-child {
+		left: 10%;
+	}
+
 
 	.hero h1 {
 		font-size: 25px;
@@ -313,7 +317,7 @@
 	}
 
 	.hero img {
-		height: 470px;
+		height: 490px;
 		
 	}
 
@@ -327,7 +331,7 @@
 	.site-section {
 	   padding-top: 60px;
 	}
-
+	
 	.section-skills,
 	.section-portfolio,
 	.section-form {
@@ -387,13 +391,12 @@
 	}
 	.myworks{
         display: grid;
-      
         grid-template-columns: repeat(1, 1fr);
            
 }
 .portfolio-item {
-    height: 210px;
-    width: 455px;
+    height: 160px;
+    width: 375px;
     margin-bottom: 30px;
     position: relative;
 }
@@ -468,9 +471,11 @@
 	================================================== */
 	.site-footer .row {
 		display:flex;
-		flex-direction: column-reverse;	
+		flex-direction: column;	
 	}
-
+	.site-footer .page-scroll{
+		margin-top: 15px;
+	}
 	.site-footer .text-right{
 		text-align: center;
 	}

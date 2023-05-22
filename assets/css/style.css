@@ -161,6 +161,7 @@ html, body {
 
 /* HEADER
 ================================================== */
+
 .site-header {
     position: fixed;
     top: 0;
@@ -377,7 +378,6 @@ html, body {
         grid-template-columns: repeat(2, 1fr);
             
 }
-
 .portfolio-item {
     height: 270px;
     width: 540px;
