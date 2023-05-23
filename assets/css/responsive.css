@@ -363,7 +363,10 @@
 
 	/* Section: Services */
 	.section-services {
-		padding-top: 180px;
+		padding-top: 150px;
+	}
+	.section-services .service img{
+		margin-top: 15px;
 	}
 
 	.service h4 {
