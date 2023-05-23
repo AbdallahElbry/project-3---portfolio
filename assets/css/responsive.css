@@ -302,7 +302,7 @@
 		top: 35%;
 	}
 	.hero .col-md-6:last-child {
-		left: 10%;
+		left: 5%;
 	}
 
 
@@ -317,7 +317,7 @@
 	}
 
 	.hero img {
-		height: 490px;
+		height: 500px;
 		
 	}
 
@@ -347,9 +347,12 @@
 	    margin: 10px 0 30px;
 	}
 
-	.site-section p {
+
+	.site-section .about-paragraph p {
 	    margin-bottom: 25px;
-	
+		text-align: justify;
+		word-spacing: 1px;
+		padding: 15px 10px;
 	}
 
 	/* Section: Skills */
@@ -395,7 +398,7 @@
            
 }
 .portfolio-item {
-    height: 160px;
+    height: 180px;
     width: 375px;
     margin-bottom: 30px;
     position: relative;
@@ -448,6 +451,7 @@
 	.section-portfolio .col-xs-6 {
 		width: 100%;
 		padding: 0;
+		
 	}
 
 	.section-portfolio .col-xs-6:nth-child(odd) {
@@ -481,11 +485,11 @@
 	}
 
 	.site-footer .col-xs-6,
-	.site-footer .col-xs-3 {
+	.site-footer .col-xs-4 {
 		width: 100%;
 	}
 
-	.site-footer .col-xs-offset-3 {
-		margin-left: 0;
+	.site-footer .col-xs-4 {
+		display: none;
 	}
 }
